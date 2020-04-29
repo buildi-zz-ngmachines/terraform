@@ -7,7 +7,7 @@ resource "aws_instance" "basic_centos_image" {
 	instance_type="t2.micro"
 
 	tags={
-		name="basic_centos_test_server"
+		Name="basic_centos_test_server"
 	}
 }
 
